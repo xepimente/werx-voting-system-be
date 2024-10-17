@@ -1,2 +1,2 @@
-# werx-voting-system-be
+# voting-system-be
 Public repository for voting-system-be
