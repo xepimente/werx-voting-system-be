@@ -4,8 +4,8 @@ const multer = require('multer');
 
 // Configure AWS SDK with your credentials
 aws.config.update({
-  accessKeyId: process.env.AWS_ACCESS_KEY,
-  secretAccessKey: process.env.AWS_SECRET_KEY,
+  accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+  secretAccessKey: process.env.AWS_SECRET_KEY_VALUE,
   region: process.env.AWS_BUCKET_REGION,
 });
 
