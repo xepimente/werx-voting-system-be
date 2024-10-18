@@ -212,7 +212,7 @@ const AdminController = {
       const savedRestaurant = await newRestaurant.save();
 
       // const qrCode = await QRCode.toDataURL(savedRestaurant._id.toString());
-      const qrCode = await QRCode.toDataURL(`${process.env.VOTERS_REGISTRATION_URL}/${savedRestaurant._id.toString()}`);
+      const qrCode = await QRCode.toDataURL(`https://werx-voting-system.vercel.app/voters-registration/${savedRestaurant._id.toString()}`);
 
       res.status(200).json({ status: "200", message: "Restaurant added successfully", qrCode: qrCode });
     }catch(err){
