@@ -14,7 +14,7 @@ const port = process.env.PORT || 4005;
 dotenv.config();
 
 var corsOptions = {
-  origin: ["http://localhost:3000","http://localhost:3002","https://voting-system-admin-zeta.vercel.app", "https://voting-system-lovat.vercel.app" ],
+  origin: ["http://localhost:3000","http://localhost:3002","https://voting-system-admin-zeta.vercel.app", "https://werx-voting-system.vercel.app" ],
   credentials: true,
 };
 
